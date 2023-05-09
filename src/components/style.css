@@ -1,0 +1,64 @@
+select {
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.dropBoxes {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 60%;
+  font-size: calc(10px + 1vmin);
+  padding-bottom: 20px;
+}
+
+.buttonsComments {
+  display: flex;
+  flex-direction: column;
+  margin: 40px 0;
+  width: 280px;
+}
+
+.inputComment {
+  padding: 0 20px;
+  line-height: 40px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  background: #e9eff6;
+  font-size: 14px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.sendInfo {
+  padding: 0 20px;
+  line-height: 40px;
+  border-width: 0;
+  border-radius: 20px;
+  background: #5c9a73;
+  border-bottom: 4px solid #10995e;
+  color: white;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+.clearForm {
+  font-size: 14px;
+  font-weight: 400;
+  padding: 0 20px;
+  line-height: 40px;
+  border-width: 0;
+  border-radius: 20px;
+  background: #f69a73;
+  border-bottom: 4px solid #d87d56;
+  color: white;
+  letter-spacing: 1px;
+}

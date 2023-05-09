@@ -1,0 +1,6 @@
+@import 'rsuite/dist/rsuite.css';
+
+.dropHeader {
+  font-size: calc(10px + 1vmin);
+  text-align: center;
+}
